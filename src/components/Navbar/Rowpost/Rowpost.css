@@ -14,7 +14,10 @@
 .poster{
     max-height: 250px;
     margin-right:12px ;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
+
 
 .posters::-webkit-scrollbar{
     display: none;
@@ -23,4 +26,17 @@
 .smallposter{
     max-height: 150px;
     margin-right:12px ;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.poster:hover{
+    transform: scale(1.1);
+
+}
+
+.smallposter:hover{
+    transform: scale(1.1);
+  
+ 
 }
